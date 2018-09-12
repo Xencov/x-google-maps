@@ -23,14 +23,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "git@github.com:Xencov/x-google-maps.git"
   },
-  "author": "Ionic Team",
+  "author": "Suroor Wijdan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ionic-team/stencil"
+    "url": "https://github.com/Xencov/x-google-maps"
   },
-  "homepage": "https://github.com/ionic-team/stencil",
+  "homepage": "https://github.com/Xencov/x-google-maps",
   "jest": {
     "transform": {
       "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"
