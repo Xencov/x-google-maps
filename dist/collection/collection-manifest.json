@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "tag": "x-google-maps",
+      "dependencies": [],
+      "componentClass": "MyComponent",
+      "componentPath": "components/my-component/my-component.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/my-component/my-component.css"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "address",
+          "type": "String",
+          "attr": "address"
+        },
+        {
+          "name": "apiKey",
+          "type": "String",
+          "attr": "api-key"
+        },
+        {
+          "name": "height",
+          "type": "String",
+          "attr": "height"
+        },
+        {
+          "name": "mapType",
+          "type": "String",
+          "attr": "map-type"
+        },
+        {
+          "name": "width",
+          "type": "String",
+          "attr": "width"
+        },
+        {
+          "name": "zoom",
+          "type": "String",
+          "attr": "zoom"
+        }
+      ],
+      "shadow": true
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.11.0",
+    "typescriptVersion": "2.9.2"
+  },
+  "bundles": []
+}
